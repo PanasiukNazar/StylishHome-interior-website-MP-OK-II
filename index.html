@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>СтильныйДом</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark text-light p-0">
+            <div class="row gx-0 d-none d-lg-flex">
+                <div class="col-lg-7 px-5 text-start">
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <small
+                            class="fa fa-map-marker-alt text-primary me-2"
+                        ></small>
+                        <small>
+                            ул. Тимирязева 50/1, Алматы 050057, Казахстан
+                        </small>
+                    </div>
+                    <div class="h-100 d-inline-flex align-items-center">
+                        <small class="far fa-clock text-primary me-2"></small>
+                        <small>Пн - Пт: 09:00 - 21:00</small>
+                    </div>
+                </div>
+                <div class="col-lg-5 px-5 text-end">
+                    <div class="h-100 d-inline-flex align-items-center me-4">
+                        <small
+                            class="fa fa-phone-alt text-primary me-2"
+                        ></small>
+                        <small>+7071219843</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0"
+        >
+            <a
+                href="index.html"
+                class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5"
+            >
+                <h2 class="m-0">СтильныйДом</h2>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Главная</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">О нас</a>
+                    <a href="service.html" class="nav-item nav-link">Услуги</a>
+                    <a href="testimonial.html" class="nav-item nav-link"
+                        >Отзывы</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link"
+                        >Контакты</a
+                    >
+                </div>
+                <a
+                    href="index.html#appointment"
+                    class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
+                    >Начать проект<i class="fa fa-arrow-right ms-3"></i
+                ></a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
+            <div
+                id="header-carousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-1.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7">
+                                        <h1
+                                            class="display-2 text-light mb-5 animated slideInDown"
+                                        >
+                                            Индивидуальные решения для вашего
+                                            интерьера
+                                        </h1>
+                                        <a
+                                            href="about.html"
+                                            class="btn btn-primary py-sm-3 px-sm-5"
+                                            >Узнать больше</a
+                                        >
+                                        <a
+                                            href="service.html"
+                                            class="btn btn-light py-sm-3 px-sm-5 ms-3"
+                                            >Наши услуги</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-2.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7">
+                                        <h1
+                                            class="display-2 text-light mb-5 animated slideInDown"
+                                        >
+                                            Экспертное руководство для вашего
+                                            дизайна
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Предыдущее</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Следующее</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Facts Start -->
+        <div class="container-fluid facts py-5 pt-lg-0">
+            <div class="container py-5 pt-lg-0">
+                <div class="row gx-0">
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                        <div
+                            class="bg-white shadow d-flex align-items-center h-100 p-4"
+                            style="min-height: 150px"
+                        >
+                            <div class="d-flex">
+                                <div
+                                    class="flex-shrink-0 btn-lg-square bg-primary"
+                                >
+                                    <i class="fa fa-couch text-white"></i>
+                                </div>
+                                <div class="ps-4">
+                                    <h5>
+                                        Индивидуальные решения для вашего
+                                        интерьера
+                                    </h5>
+                                    <span>
+                                        Наши услуги в области дизайна интерьеров
+                                        сосредоточены на создании уникальных
+                                        пространств, которые отражают стиль и
+                                        предпочтения наших клиентов. Мы
+                                        разрабатываем индивидуальные проекты,
+                                        которые включают в себя высокое качество
+                                        материалов и мебели для обеспечения
+                                        максимального удобства.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                        <div
+                            class="bg-white shadow d-flex align-items-center h-100 p-4"
+                            style="min-height: 150px"
+                        >
+                            <div class="d-flex">
+                                <div
+                                    class="flex-shrink-0 btn-lg-square bg-primary"
+                                >
+                                    <i class="fa fa-paint-brush text-white"></i>
+                                </div>
+                                <div class="ps-4">
+                                    <h5>
+                                        Экспертное проектирование интерьеров
+                                    </h5>
+                                    <span>
+                                        Мы предлагаем экспертное проектирование,
+                                        учитывающее все нюансы вашего
+                                        пространства. Мы создаем функциональные
+                                        и стильные интерьеры, используя
+                                        последние тенденции в дизайне, чтобы
+                                        обеспечить удобство и эстетическое
+                                        наслаждение.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                        <div
+                            class="bg-white shadow d-flex align-items-center h-100 p-4"
+                            style="min-height: 150px"
+                        >
+                            <div class="d-flex">
+                                <div
+                                    class="flex-shrink-0 btn-lg-square bg-primary"
+                                >
+                                    <i class="fa fa-cogs text-white"></i>
+                                </div>
+                                <div class="ps-4">
+                                    <h5>
+                                        Продолжительная поддержка и обслуживание
+                                    </h5>
+                                    <span>
+                                        Наши услуги не ограничиваются лишь
+                                        созданием дизайна. Мы обеспечиваем
+                                        поддержку и консультации на всех этапах
+                                        реализации проекта, гарантируя, что
+                                        каждый элемент интерьера будет выполнен
+                                        с учетом ваших предпочтений и высоких
+                                        стандартов качества.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div
+                            class="position-relative overflow-hidden ps-5 pt-5 h-100"
+                            style="min-height: 400px"
+                        >
+                            <img
+                                class="position-absolute w-100 h-100"
+                                src="img/approach-1.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="h-100">
+                            <h6 class="text-primary text-uppercase mb-2">
+                                Наш подход
+                            </h6>
+                            <h1 class="display-6 mb-4">
+                                Преобразование вашего интерьера с высоким
+                                качеством и удобством
+                            </h1>
+                            <p>
+                                В основе нашей работы лежит стремление создать
+                                уникальные интерьеры, отражающие стиль и
+                                предпочтения наших клиентов. Мы начинаем с
+                                глубокого анализа ваших потребностей,
+                                предпочтений и желаемого результата. Этот
+                                персонализированный подход позволяет нам
+                                разрабатывать интерьеры, которые отвечают самым
+                                высоким стандартам качества.
+                            </p>
+                            <p class="mb-4">
+                                Наша команда использует последние тенденции в
+                                дизайне и тщательно подбирает материалы, чтобы
+                                создать пространство, в котором будет удобно и
+                                приятно находиться. Мы уверены, что качество и
+                                удобство — это ключевые составляющие, которые
+                                помогают создавать идеальные интерьеры для
+                                вашего дома или офиса.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Courses Start -->
+        <div id="appointment" class="container-xxl my-6 py-6 pb-0">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-3 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h6 class="text-primary text-uppercase mb-2">
+                        Записаться на консультацию
+                    </h6>
+                    <h1 class="display-6 mb-4">
+                        Сделайте первый шаг к созданию идеального интерьера
+                    </h1>
+                    <p>
+                        Готовы преобразить ваше пространство? Запись на
+                        консультацию с нашими специалистами — это первый шаг к
+                        созданию уникального дизайна, который отвечает всем
+                        вашим потребностям. Во время первой встречи мы обсудим
+                        ваши предпочтения, оценим текущее состояние помещения и
+                        предложим подходящий план для создания интерьера,
+                        который идеально сочетает в себе высокое качество и
+                        удобство.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-8 my-6 mb-0 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="bg-primary text-center p-5">
+                            <h1 class="mb-4">Записаться на консультацию</h1>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-sm-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control border-0"
+                                                id="gname"
+                                                placeholder="Ваше имя"
+                                            />
+                                            <label for="gname">Ваше имя</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="email"
+                                                class="form-control border-0"
+                                                id="email"
+                                                placeholder="Ваша почта"
+                                            />
+                                            <label for="gmail"
+                                                >Ваша почта</label
+                                            >
+                                            <div
+                                                id="result"
+                                                style="color: red"
+                                            ></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea
+                                                class="form-control border-0"
+                                                placeholder="Оставьте сообщение"
+                                                id="message"
+                                                style="height: 100px"
+                                            ></textarea>
+                                            <label for="message"
+                                                >Сообщение</label
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button
+                                            class="btn btn-dark w-100 py-3"
+                                            type="submit"
+                                            id="submit"
+                                            onclick="sendForm()"
+                                        >
+                                            Отправить
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Courses End -->
+
+        <!-- Features Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h6 class="text-primary text-uppercase mb-2">
+                            Почему выбирают нас!
+                        </h6>
+                        <h1 class="display-6 mb-4">
+                            Ваш надежный партнер в сфере дизайна интерьеров
+                        </h1>
+                        <p class="mb-5">
+                            При выборе партнера в области дизайна интерьеров
+                            важно доверять тем, кто гарантирует высокое
+                            качество, комфорт и внимание к деталям. Мы понимаем,
+                            что каждый проект уникален, и наша команда стремится
+                            создать пространство, которое будет отвечать всем
+                            вашим требованиям и ожиданиям. Мы разрабатываем
+                            индивидуальные решения, чтобы каждый элемент
+                            интерьера приносил вам радость и удобство.
+                        </p>
+                        <div class="row gy-5 gx-4">
+                            <div
+                                class="col-sm-6 wow fadeIn"
+                                data-wow-delay="0.1s"
+                            >
+                                <div class="d-flex align-items-center mb-3">
+                                    <div
+                                        class="flex-shrink-0 btn-square bg-primary me-3"
+                                    >
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <h5 class="mb-0">
+                                        Индивидуальные решения для интерьера
+                                    </h5>
+                                </div>
+                                <span>
+                                    Каждый проект уникален, и мы создаем дизайн
+                                    интерьера, который полностью соответствует
+                                    вашим желаниям и функциональным
+                                    потребностям. Мы уделяем внимание каждому
+                                    элементу мебели и оформлению, чтобы каждый
+                                    уголок был наполнен гармонией и комфортом.
+                                </span>
+                            </div>
+                            <div
+                                class="col-sm-6 wow fadeIn"
+                                data-wow-delay="0.2s"
+                            >
+                                <div class="d-flex align-items-center mb-3">
+                                    <div
+                                        class="flex-shrink-0 btn-square bg-primary me-3"
+                                    >
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <h5 class="mb-0">Опытные специалисты</h5>
+                                </div>
+                                <span>
+                                    Наша команда состоит из профессионалов с
+                                    многолетним опытом работы в дизайне
+                                    интерьеров. Мы понимаем, что важно не только
+                                    создать красивое пространство, но и
+                                    обеспечить его функциональность и комфорт
+                                    для вас.
+                                </span>
+                            </div>
+                            <div
+                                class="col-sm-6 wow fadeIn"
+                                data-wow-delay="0.3s"
+                            >
+                                <div class="d-flex align-items-center mb-3">
+                                    <div
+                                        class="flex-shrink-0 btn-square bg-primary me-3"
+                                    >
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <h5 class="mb-0">
+                                        Полная поддержка на всех этапах
+                                    </h5>
+                                </div>
+                                <span>
+                                    Мы предоставляем полное сопровождение на
+                                    каждом этапе реализации проекта. От
+                                    разработки концепции до установки мебели и
+                                    декора — мы заботимся о каждой детали, чтобы
+                                    ваш интерьер стал удобным и стильным.
+                                </span>
+                            </div>
+                            <div
+                                class="col-sm-6 wow fadeIn"
+                                data-wow-delay="0.4s"
+                            >
+                                <div class="d-flex align-items-center mb-3">
+                                    <div
+                                        class="flex-shrink-0 btn-square bg-primary me-3"
+                                    >
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <h5 class="mb-0">
+                                        Стремление к вашему успеху
+                                    </h5>
+                                </div>
+                                <span>
+                                    Ваш успех и удовлетворение от результата —
+                                    наш главный приоритет. Мы строим
+                                    долгосрочные отношения с клиентами, чтобы
+                                    всегда быть рядом, предоставляя консультации
+                                    и помощь, когда это необходимо.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div
+                            class="position-relative overflow-hidden pe-5 pt-5 h-100"
+                            style="min-height: 400px"
+                        >
+                            <img
+                                class="position-absolute w-100 h-100"
+                                src="img/why-1.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                            <img
+                                class="position-absolute top-0 end-0 bg-white ps-3 pb-3"
+                                src="img/why-2.jpg"
+                                alt=""
+                                style="width: 200px; height: 200px"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        <!-- Blog Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <h6 class="text-primary text-uppercase mb-2">
+                        Наши последние статьи
+                    </h6>
+                    <h1 class="display-6 mb-4">
+                        Узнайте больше о дизайне интерьеров
+                    </h1>
+                    <p>
+                        Изучайте наши последние статьи, чтобы получить ценные
+                        идеи и советы по дизайну интерьера. Мы делимся
+                        практическими рекомендациями по созданию комфортных и
+                        стильных пространств, которые соответствуют всем вашим
+                        потребностям.
+                    </p>
+                </div>
+                <div class="row g-0 team-items">
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item position-relative">
+                            <div class="position-relative">
+                                <img
+                                    class="img-fluid"
+                                    src="img/blog-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h5 class="mt-2">Основы дизайна интерьера</h5>
+                                <span>
+                                    Разберитесь в основах дизайна интерьера и
+                                    узнайте, как правильный выбор мебели и
+                                    оформления помогает создать уютное
+                                    пространство. В статье мы рассмотрим
+                                    ключевые принципы, которые помогут вам
+                                    сделать правильный выбор для вашего дома.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item position-relative">
+                            <div class="position-relative">
+                                <img
+                                    class="img-fluid"
+                                    src="img/blog-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h5 class="mt-2">
+                                    Тренды в интерьере на 2024 год
+                                </h5>
+                                <span>
+                                    Узнайте, какие стили и элементы дизайна
+                                    будут актуальны в 2024 году. Мы расскажем о
+                                    самых модных трендах и как их можно
+                                    применить в вашем интерьере, чтобы создать
+                                    пространство, которое будет отвечать
+                                    современным требованиям.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item position-relative">
+                            <div class="position-relative">
+                                <img
+                                    class="img-fluid"
+                                    src="img/blog-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h5 class="mt-2">
+                                    Важность планирования интерьера
+                                </h5>
+                                <span>
+                                    Хорошо продуманный интерьер — это не только
+                                    красиво, но и удобно. В этой статье мы
+                                    расскажем, как правильно планировать
+                                    пространство, чтобы оно было функциональным
+                                    и эстетически привлекательным.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item position-relative">
+                            <div class="position-relative">
+                                <img
+                                    class="img-fluid"
+                                    src="img/blog-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h5 class="mt-2">
+                                    Как выбрать мебель для вашего дома
+                                </h5>
+                                <span>
+                                    Мебель — это не только часть интерьера, но и
+                                    важный элемент, который влияет на комфорт.
+                                    Узнайте, как выбрать мебель, которая будет
+                                    сочетаться с вашим стилем и обеспечит
+                                    удобство на долгие годы.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light footer my-6 mb-0 py-6 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">СтильныйДом</h4>
+                        <p>
+                            Спасибо, что посетили наш сайт! Мы стремимся
+                            предоставить вам все необходимые знания и поддержку
+                            для создания стильного и комфортного интерьера.
+                            Исследуйте наши ресурсы, читайте последние статьи в
+                            блоге и не стесняйтесь обращаться к нам, если у вас
+                            возникнут вопросы или потребуется индивидуальная
+                            помощь.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-4">Свяжитесь с нами</h4>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>
+                            ул. Киркнесс, 431, Санидайд, Претория, 0002,
+                            Южноафриканская Республика
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>
+                            +7071219843
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i>
+                            stylish_home@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Быстрые ссылки</h4>
+                        <a class="btn btn-link" href="index.html">Главная</a>
+                        <a class="btn btn-link" href="about.html">О нас</a>
+                        <a class="btn btn-link" href="contact.html">Контакты</a>
+                        <a class="btn btn-link" href="service.html"
+                            >Наши услуги</a
+                        >
+                        <a class="btn btn-link" href="testimonial.html"
+                            >Отзывы</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Популярные ссылки</h4>
+                        <a class="btn btn-link" href="about.html">О нас</a>
+                        <a class="btn btn-link" href="contact.html">Контакты</a>
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Условия использования</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Политика конфиденциальности</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top">
+            <i class="bi bi-arrow-up"></i>
+        </a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование Cookies
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует cookies для предоставления вам лучшего
+                    и более релевантного опыта при просмотре нашего сайта.
+                    <a href="#">Узнать больше...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
